@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('main-content')
+    @include('partials._jumbotron')
     <section>
       <div class="container pt-5 pb-5">
         <div class="row g-3">

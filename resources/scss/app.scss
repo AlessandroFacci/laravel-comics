@@ -1,5 +1,12 @@
 @import "~bootstrap/scss/bootstrap";
 
+.jumbotron {
+    background-image: url(/public/images/jumbotron.jpg);
+    width: 100%;
+    height: 300px;
+    background-size: cover;
+}
+
 section {
     background-color: #1c1c1c;
     .card {
