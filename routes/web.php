@@ -15,4 +15,9 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('home');
-});
+})->name('home');
+
+Route::get('/comics', function (){
+    $title = 'ACTION COMICS #1000: THE DELUXE EDITION';
+    return view('comics', compact('title'));
+})->name('comics'); 
