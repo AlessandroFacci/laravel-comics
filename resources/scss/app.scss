@@ -1,1 +1,29 @@
 @import "~bootstrap/scss/bootstrap";
+
+section {
+    background-color: #1c1c1c;
+    .card {
+        height: 18rem;
+        border: none;
+        background-color: #1c1c1c;
+        .card-img {
+            width: 100%;
+            aspect-ratio: 1;
+            overflow: hidden;
+            img {
+                width: 100%;
+            }
+        }
+        .card-body {
+            padding: 20px 0;
+            color: white;
+        }
+    }
+    button {
+        background-color: #0282f9;
+        padding: 0.5rem 2.5rem;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+}
