@@ -10,7 +10,8 @@
 <body>
   <header>@include('partials._navbar')</header>
   <main>
-    <h1>{{$title}}</h1></main>
+    @include('partials._jumbotron')
+  </main>
   <footer>Footer</footer>
 </body>
 </html>
