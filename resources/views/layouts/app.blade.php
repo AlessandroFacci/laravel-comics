@@ -8,7 +8,7 @@
   @vite('resources/js/app.js')
 </head>
 <body>
-  <header>Header</header>
+  <header>@include('partials._navbar')</header>
   <main>@yield('main-content')</main>
   <footer>Footer</footer>
 </body>
