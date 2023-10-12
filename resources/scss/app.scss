@@ -1,5 +1,18 @@
 @import "~bootstrap/scss/bootstrap";
 
+.navbar-brand {
+    img {
+        width: 3rem;
+        margin-right: 4rem;
+    }
+}
+.nav-item {
+    a {
+        font-size: 0.8rem;
+        margin: 0 0.5rem;
+    }
+}
+
 .jumbotron {
     background-image: url(/public/images/jumbotron.jpg);
     width: 100%;
@@ -13,6 +26,7 @@ section {
         height: 18rem;
         border: none;
         background-color: #1c1c1c;
+        cursor: pointer;
         .card-img {
             width: 100%;
             aspect-ratio: 1;
